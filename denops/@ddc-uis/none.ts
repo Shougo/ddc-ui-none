@@ -1,5 +1,5 @@
-import { BaseUi } from "https://deno.land/x/ddc_vim@v3.4.0/base/ui.ts";
-import { Denops } from "https://deno.land/x/ddc_vim@v3.4.0/deps.ts";
+import { BaseUi } from "https://deno.land/x/ddc_vim@v3.5.1/base/ui.ts";
+import { Denops } from "https://deno.land/x/ddc_vim@v3.5.1/deps.ts";
 
 export type Params = Record<never, never>;
 
@@ -14,11 +14,10 @@ export class Ui extends BaseUi<Params> {
   }): Promise<void> {
   }
 
-  // deno-lint-ignore require-await
-  override async visible(_args: {
+  override visible(_args: {
     denops: Denops;
   }): Promise<boolean> {
-    return false;
+    return Promise.resolve(false);
   }
 
   override params(): Params {
