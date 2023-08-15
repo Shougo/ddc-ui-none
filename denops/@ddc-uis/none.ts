@@ -1,7 +1,7 @@
-import { BaseUi } from "https://deno.land/x/ddc_vim@v3.5.1/base/ui.ts";
-import { Denops } from "https://deno.land/x/ddc_vim@v3.5.1/deps.ts";
+import { BaseUi } from "https://deno.land/x/ddc_vim@v4.0.4/base/ui.ts";
+import { Denops } from "https://deno.land/x/ddc_vim@v4.0.4/deps.ts";
 
-export type Params = Record<never, never>;
+export type Params = Record<string, never>;
 
 export class Ui extends BaseUi<Params> {
   override async show(_args: {
