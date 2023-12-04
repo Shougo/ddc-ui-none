@@ -1,5 +1,5 @@
-import { BaseUi } from "https://deno.land/x/ddc_vim@v4.0.5/base/ui.ts";
-import { Denops } from "https://deno.land/x/ddc_vim@v4.0.5/deps.ts";
+import { BaseUi } from "https://deno.land/x/ddc_vim@v4.1.0/base/ui.ts";
+import { Denops } from "https://deno.land/x/ddc_vim@v4.1.0/deps.ts";
 
 export type Params = Record<string, never>;
 

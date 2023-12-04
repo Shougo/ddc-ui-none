@@ -14,10 +14,6 @@ https://github.com/vim-denops/denops.vim
 
 https://github.com/Shougo/ddc.vim
 
-### none.vim
-
-https://github.com/Shougo/none.vim
-
 ## Configuration
 
 ```vim
