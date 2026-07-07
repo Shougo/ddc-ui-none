@@ -1,6 +1,6 @@
 import { BaseUi } from "@shougo/ddc-vim/ui";
 
-import type { Denops } from "@denops/core";
+import type { Denops } from "@denops/std";
 
 export type Params = Record<string, never>;
 
